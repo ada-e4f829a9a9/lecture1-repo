@@ -1,0 +1,41 @@
+# Git
+
+## Normal workflow
+
+Check changes:
+`git status`
+
+Stage changes:
+`git add .`
+
+Commit staged changes:
+`git commit -m "message"`
+
+Push commits to GitHub:
+`git push`
+
+## Branches
+
+Create + switch:
+`git switch -c new_branch`
+
+Switch:
+`git switch branch_name`
+
+First push:
+`git push -u origin branch_name`
+
+`-u` = remembers the remote branch (upstream)
+`origin` = remote repository, usually GitHub
+
+## Pull
+
+Get latest remote changes:
+`git pull`
+
+## .gitignore
+
+Example:
+`.ipynb_checkpoints/`
+`__pycache__/`
+`.venv/`
